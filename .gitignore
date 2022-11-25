@@ -1,0 +1,10 @@
+
+aoc_rs2015/target/
+
+aoc_rs2021/target/
+
+aoc_py2022/.idea/
+
+*.code-workspace
+
+.vscode/
