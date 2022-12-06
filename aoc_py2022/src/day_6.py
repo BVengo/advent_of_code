@@ -1,7 +1,7 @@
 def marker_start(signal:str, n: int):
     char_list = [None] * 26  # idx: char, val: last seen index
     count = 0
-    for i, char in enumerate(signal[:-(n-1)]):
+    for i, char in enumerate(signal):
         int_val = ord(char) - 97
         count += 1
         if char_list[int_val] is not None and char_list[int_val] > i - count:
